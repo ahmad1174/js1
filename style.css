@@ -1,0 +1,52 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lato Heavy";
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.key {
+
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid white;
+    color: white;
+    /*line-height: 70px;*/
+    display:block;
+}
+
+.alpha{
+font-size: larger;
+font-family: "Open Sans Extrabold";
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+b{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color:yellow;
+}
